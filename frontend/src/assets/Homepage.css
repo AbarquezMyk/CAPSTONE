@@ -1,0 +1,40 @@
+/* Homepage.css */
+
+/* Navigation Link Styles */
+.nav-link {
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  background-color: #06D7A0;
+}
+
+/* Smooth scrolling effect */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fix scroll jump when navigating to in-page anchors */
+#about,
+#games,
+#join {
+  scroll-margin-top: 100px; /* Adjust to match header height */
+}
+
+/* Sticky header with visual design preserved */
+.sticky-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: white;
+  border-bottom: 1px solid #ddd;
+}
