@@ -15,6 +15,7 @@ import GameBank from './assets/GameBank';
 import TeacherGuessTheWord from './assets/TeacherGuessTheWord';
 import MyAccountTeacher from './assets/MyAccountTeacher';
 import ProgressTracking from './assets/ProgressTracking'; 
+import ClassRecord from './assets/ClassRecord';
 
 
 import StudentDashboard from './assets/StudentDashboard';
@@ -58,6 +59,7 @@ const App = () => {
         <Route path="/gamebank" element={<GameBank />} />
         <Route path="/guess-the-word-teacher" element={<TeacherGuessTheWord />} />
         <Route path="/progress-tracking/:classRoomId" element={<ProgressTracking />} />
+        <Route path="/class-record" element={<ClassRecord />} />
         
         {/* Student Side Path */}
 
